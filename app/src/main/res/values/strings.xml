@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Jot</string>
+    <string name ="jot_title_hint">Jot down!</string>
+    <string name ="jot_title_label">Title</string>
+    <string name ="jot_details_label">Details</string>
+    <string name ="jot_done_label">Done</string>
 </resources>
