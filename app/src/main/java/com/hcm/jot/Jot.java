@@ -12,6 +12,7 @@ public class Jot {
     private String mTitle;
     private String mNotes;
     private Date mDate;
+    private boolean mUrgent;
     private boolean mDone;
 
     public Jot() {
@@ -57,5 +58,13 @@ public class Jot {
 
     public void setDone(boolean mDone) {
         this.mDone = mDone;
+    }
+
+    public boolean isUrgent() {
+        return mUrgent;
+    }
+
+    public void setUrgent(boolean mUrgent) {
+        this.mUrgent = mUrgent;
     }
 }

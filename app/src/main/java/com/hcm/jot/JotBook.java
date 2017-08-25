@@ -29,6 +29,7 @@ public class JotBook {
             jot.setDone(i%2 == 0);
             mJots.add(jot);
         }
+        for (int j = 0)
     }
 
     public List<Jot> getJots() {
